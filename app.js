@@ -13,3 +13,10 @@ function exibirMensagemNoAlerta3 () {
     cidade = prompt('Digite o nome de alguma cidade do Brasil!!!');
     alert(`Estive em ${cidade} e lembrei de você!`)
 };
+
+function somandoDoisNumeros() {
+    let primeiroNumero = parseInt(prompt('Digite o primeiro número'));
+    let segundoNumero = parseInt(prompt('Digite o segundo número'));
+    let resultado = primeiroNumero + segundoNumero;
+    alert(`o resultado da soma de ${primeiroNumero} + ${segundoNumero} = ${resultado}`)
+}
